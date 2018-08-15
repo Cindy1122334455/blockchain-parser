@@ -21,6 +21,6 @@ Then, just run
 ## Steps about starting running codes
 1. Open  "ordered-blocks.py" and then modify the statement " blockchain = Blockchain(os.path.expanduser('/Users/fanfangege/Library/Application Support/Bitcoin/blocks'))" according to the directory of "/Bitcoin/blocks" in your own machine.
  2. Modify the statement "for block in blockchain.get_ordered_blocks(os.path.expanduser('/Users/fanfangege/Library/Application Support/Bitcoin/blocks/index'), start= , end= ):" according to the current directory of "Bitcoin/blocks/index" (which might be "~/.bitcoin/blocks/index" in Linux System) in your own machine. And then you are free to specify the arbitrary starting and ending block according to the height of block in the Bitcoin Core. The very first block height starts with "0" and you can modify the the number of "end" as the number of latest blocks in the Bitcoin Core which can be checked via looking up to the bottle right corner of Bitcoin Core with the symbol of "check mark".
-5.After all the above steps being done, kill the Bitcoin Core since it only allows one processor having a control on the levelDB database.
-6.Input "python3 ordered-blocks.py" in terminal to run all the codes.
+3.After all the above steps being done, kill the Bitcoin Core since it only allows one processor having a control on the levelDB database.
+4.Input "python3 ordered-blocks.py" in terminal to run all the codes.
 
