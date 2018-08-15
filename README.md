@@ -7,7 +7,7 @@ Our codes support Python 3. So When you run it , you'd better type "python3 " in
 Downloading Bitcoin Core from "https://bitcoin.org/en/bitcoin-core/" to catch up to the latest block and then we are able to use Bitcoin Core's LevelDB index to locate ordered block data in its .blk files.
 
 ## Installing some required packages before running codes
-Requirements : python-bitcoinlib, plyvel, coverage for tests
+Requirements : python-bitcoinlib, plyvel, coverage for tests (python-bitcoinlib==0.5.0, plyvel==1.0.4, coverage==4.0.2)
 plyvel requires leveldb development libraries for LevelDB >1.2.X
 
 On Linux, install libleveldb-dev
